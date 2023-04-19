@@ -1,0 +1,48 @@
+.modify-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.modify-container h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.modify-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modify-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.modify-container input,
+.modify-container textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modify-container button[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.modify-container button[type="submit"]:hover {
+  background-color: #005fa3;
+}
